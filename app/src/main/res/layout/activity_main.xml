@@ -74,6 +74,7 @@
                         android:layout_height="60dp"
                         android:layout_marginTop="30dp"
                         android:backgroundTint="@color/Primary"
+                        android:onClick="nextScreem"
                         android:text="INICIAR JUEGO"
                         android:textColorLink="@color/Primary"
                         android:textSize="24sp" />
@@ -81,13 +82,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:alpha="0.3"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/Fondo" />
         </FrameLayout>
     </LinearLayout>
 

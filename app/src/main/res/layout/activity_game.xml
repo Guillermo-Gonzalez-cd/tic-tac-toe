@@ -27,7 +27,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/tvPlayer1"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:text="Player 1"
@@ -43,7 +43,7 @@
                     app:srcCompat="@drawable/icon_close_24" />
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/tvScorePlayer1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -61,7 +61,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/tvPlayer2"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:text="Player 2"
@@ -77,7 +77,7 @@
                     app:srcCompat="@drawable/icon_circle_24" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/tvScorePlayer2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -106,6 +106,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
+                    android:onClick="play"
                     android:textColor="@color/Primary"
                     android:textSize="60sp" />
 
@@ -116,6 +117,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
+                    android:onClick="play"
                     android:textColor="@color/Primary"
                     android:textSize="60sp" />
 
@@ -126,6 +128,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
+                    android:onClick="play"
                     android:textColor="@color/Primary"
                     android:textSize="60sp" />
             </LinearLayout>
@@ -143,6 +146,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
+                    android:onClick="play"
                     android:textColor="@color/Primary"
                     android:textSize="60sp" />
 
@@ -153,6 +157,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
+                    android:onClick="play"
                     android:textColor="@color/Primary"
                     android:textSize="60sp" />
 
@@ -163,6 +168,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
+                    android:onClick="play"
                     android:textColor="@color/Primary"
                     android:textSize="60sp" />
             </LinearLayout>
@@ -180,6 +186,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
+                    android:onClick="play"
                     android:textColor="@color/Primary"
                     android:textSize="60sp" />
 
@@ -190,6 +197,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
+                    android:onClick="play"
                     android:textColor="@color/Primary"
                     android:textSize="60sp" />
 
@@ -200,6 +208,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
+                    android:onClick="play"
                     android:textColor="@color/Primary"
                     android:textSize="60sp" />
             </LinearLayout>
@@ -210,7 +219,8 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:backgroundTint="@color/white"
-                android:text="REINICIAR JUEGO"
+                android:onClick="nuevaPartida"
+                android:text="NUEVA PARTIDA"
                 android:textColor="@color/Primary"
                 android:textSize="30dp" />
         </LinearLayout>
